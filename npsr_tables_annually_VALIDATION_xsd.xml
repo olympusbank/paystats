@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:npsr_types="http://www.bankofgreece.gr/schemas/NPSR/Hdb" elementFormDefault="qualified" attributeFormDefault="unqualified">
-	<xs:import namespace="http://www.bankofgreece.gr/schemas/NPSR/Hdb" schemaLocation="https://olympusbank.com/hosting/npsr_types.xml"/>
+	<xs:import namespace="http://www.bankofgreece.gr/schemas/NPSR/Hdb" schemaLocation="https://raw.githubusercontent.com/olympusbank/paystats/c30c6c6af9b7afd8c75bba0644fa67202864623a/npsr_types.xml"/>
 	<xs:element name="Report">
 		<xs:complexType>
 			<xs:sequence>
