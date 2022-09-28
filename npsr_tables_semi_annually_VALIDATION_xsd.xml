@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:npsr_types="http://www.bankofgreece.gr/schemas/NPSR/Hdb" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://www.bankofgreece.gr/schemas/NPSR/Hdb" schemaLocation="https://olympusbank.com/hosting/npsr_types.xml"/>
+	<xs:element name="Report">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Table0">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:restriction base="npsr_types:Table0Type">
+								<xs:sequence>
+									<xs:element name="FpypID" type="npsr_types:FpypIDType"/>
+									<xs:element name="ReferenceYear" type="npsr_types:ReferenceYearType"/>
+									<xs:element name="ReferencePeriod">
+										<xs:simpleType>
+											<xs:restriction base="npsr_types:ReferencePeriodType">
+												<xs:enumeration value="2"/>
+												<xs:enumeration value="4"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:element>
+									<xs:element name="SubmissionPeriod">
+										<xs:simpleType>
+											<xs:restriction base="npsr_types:SubmissionPeriodType">
+												<xs:pattern value="H"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:element>
+									<xs:element name="Revision" type="npsr_types:RevisionType"/>
+									<xs:element name="FillInDate" type="npsr_types:FillInDateType"/>
+									<xs:element name="ContactPerson" type="npsr_types:ContactInfoStringType"/>
+									<xs:element name="ContactPersonPhoneNo" type="npsr_types:ContactInfoStringType"/>
+									<xs:element name="EmailAddress" type="npsr_types:ContactInfoStringType"/>
+								</xs:sequence>
+							</xs:restriction>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element ref="Table2_3" minOccurs="0"/>
+				<xs:element ref="Table4a_5a" minOccurs="0"/>
+				<xs:element ref="Table6" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="id" use="required" fixed="NPSR_H"/>
+			<xs:attribute name="version" use="required" fixed="01.00">
+				<xs:simpleType>
+					<xs:restriction base="npsr_types:ReportVersionType"/>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Table4a_5a">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="PAYSeriesKey" type="npsr_types:PAYSeries_Table4a_5a"/>
+				<xs:element name="PCPSeriesKey" type="npsr_types:PCPSeries_Table4a_5a"/>
+				<xs:element name="PCTSeriesKey" type="npsr_types:PCTSeries_Table4a_5a"/>
+				<xs:element name="PDDSeriesKey" type="npsr_types:PDDSeries_Table4a_5a"/>
+				<xs:element name="PEMSeriesKey" type="npsr_types:PEMSeries_Table4a_5a"/>
+				<xs:element name="PLBSeriesKey" type="npsr_types:PLBSeries_Table4a_5a"/>
+				<xs:element name="PISSeriesKey" type="npsr_types:PISSeries_Table4a_5a"/>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="uniquePAYTable4a_5a_key">
+			<xs:selector xpath="PAYSeriesKey"/>
+			<xs:field xpath="SeriesKey"/>
+			<xs:field xpath="SeriesKey/@COUNT_AREA"/>
+		</xs:key>
+		<xs:key name="uniquePCTTable4a_5a_key">
+			<xs:selector xpath="PCTSeriesKey"/>
+			<xs:field xpath="SeriesKey"/>
+			<xs:field xpath="SeriesKey/@COUNT_AREA"/>
+			<xs:field xpath="SeriesKey/@PYMNT_SCHM"/>
+		</xs:key>
+		<xs:key name="uniquePCPTable4a_5a_Key">
+			<xs:selector xpath="PCPSeriesKey"/>
+			<xs:field xpath="SeriesKey"/>
+			<xs:field xpath="SeriesKey/@COUNT_AREA"/>
+			<xs:field xpath="SeriesKey/@TRMNL_LCTN"/>
+			<xs:field xpath="SeriesKey/@PYMNT_SCHM"/>
+		</xs:key>
+		<xs:key name="uniquePDDTable4a_5a_Key">
+			<xs:selector xpath="PDDSeriesKey"/>
+			<xs:field xpath="SeriesKey"/>
+			<xs:field xpath="SeriesKey/@COUNT_AREA"/>
+			<xs:field xpath="SeriesKey/@PYMNT_SCHM"/>
+		</xs:key>
+		<xs:key name="uniquePEMTable4a_5a_key">
+			<xs:selector xpath="PEMSeriesKey"/>
+			<xs:field xpath="SeriesKey"/>
+			<xs:field xpath="SeriesKey/@COUNT_AREA"/>
+		</xs:key>
+		<xs:key name="uniquePLBTable4a_5a_key">
+			<xs:selector xpath="PLBSeriesKey"/>
+			<xs:field xpath="SeriesKey"/>
+		</xs:key>
+		<xs:key name="uniquePISTable4a_5a_key">
+			<xs:selector xpath="PISSeriesKey"/>
+			<xs:field xpath="SeriesKey"/>
+			<xs:field xpath="SeriesKey/@COUNT_AREA"/>
+		</xs:key>
+	</xs:element>
+	<xs:element name="Table6">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="PTTSeriesKey" type="npsr_types:PTTSeries_Table6"/>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="uniquePTTTable6_key">
+			<xs:selector xpath="PTTSeriesKey"/>
+			<xs:field xpath="SeriesKey"/>
+			<xs:field xpath="SeriesKey/@TRMNL_LCTN"/>
+		</xs:key>
+	</xs:element>
+	<xs:element name="Table2_3">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="PCNSeriesKey" type="npsr_types:PCNSeries_Table2"/>
+				<xs:element name="PTNSeriesKey" type="npsr_types:PTNSeries_Table3"/>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="uniquePCNTable2_key">
+			<xs:selector xpath="PCNSeriesKey"/>
+			<xs:field xpath="SeriesKey"/>
+			<xs:field xpath="SeriesKey/@PYMNT_SCHM"/>
+		</xs:key>
+		<xs:key name="uniquePTNTable3_key">
+			<xs:selector xpath="PTNSeriesKey"/>
+			<xs:field xpath="SeriesKey"/>
+			<xs:field xpath="SeriesKey/@TRMNL_LCTN"/>
+		</xs:key>
+	</xs:element>
+</xs:schema>
