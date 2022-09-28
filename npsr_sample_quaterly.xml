@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="NPSR_Q" version="01.00" xsi:noNamespaceSchemaLocation="npsr_tables_quarterly.xsd">
+	<Table0>
+		<FpypID>1</FpypID>
+		<ReferenceYear>2022</ReferenceYear>
+		<ReferencePeriod>1</ReferencePeriod>
+		<SubmissionPeriod>Q</SubmissionPeriod>
+		<Revision>0</Revision>
+		<FillInDate>2022-03-31</FillInDate>
+		<ContactPerson>Ιωάννης Ιωάννου</ContactPerson>
+		<ContactPersonPhoneNo>210-1234567</ContactPersonPhoneNo>
+		<EmailAddress>ioannis.ioannou@gmail.com</EmailAddress>
+	</Table0>
+	<Table9>
+		<PCTSeriesKey>
+			<SeriesKey COUNT_AREA="FR">PCT.Q.GR.??.1._T._T.CTS_ALL._X._Z.N</SeriesKey>
+			<Volume>5.123456</Volume>
+			<Value>80.12345678</Value>
+		</PCTSeriesKey>
+		<PCTSeriesKey>
+			<SeriesKey COUNT_AREA="BG">PCT.Q.GR.??.1._T._T.CTS_ALL._X._Z.N</SeriesKey>
+			<Volume>10</Volume>
+			<Value>25.2</Value>
+		</PCTSeriesKey>	
+		<PCTSeriesKey>
+			<SeriesKey COUNT_AREA="IT">PCT.Q.GR.??.1._T._T.CTS_ALL._X._Z.N</SeriesKey>
+			<Volume>9</Volume>
+			<Value>18.89</Value>
+		</PCTSeriesKey>	
+
+		<PCTSeriesKey>
+			<SeriesKey COUNT_AREA="FR">PCT.Q.GR.??.1.2000._T.CTS_ALL._X._Z.N</SeriesKey>
+			<Volume>2.12</Volume>
+			<Value>51.12345678</Value>
+		</PCTSeriesKey>
+		<PCTSeriesKey>
+			<SeriesKey COUNT_AREA="BG">PCT.Q.GR.??.1.2000._T.CTS_ALL._X._Z.N</SeriesKey>
+			<Volume>5.255</Volume>
+			<Value>15.2325</Value>
+		</PCTSeriesKey>
+		<PCTSeriesKey>
+			<SeriesKey COUNT_AREA="IT">PCT.Q.GR.??.1.2000._T.CTS_ALL._X._Z.N</SeriesKey>
+			<Volume>4</Volume>
+			<Value>12.45612345</Value>
+		</PCTSeriesKey>		
+		<PCTSeriesKey>
+			<SeriesKey COUNT_AREA="FR">PCT.Q.GR.??.1.2000.R.CTS_ALL._X._Z.N</SeriesKey>
+			<Volume>1</Volume>
+			<Value>50</Value>
+		</PCTSeriesKey>
+		<PCTSeriesKey>
+			<SeriesKey COUNT_AREA="BG">PCT.Q.GR.??.1.2000.R.CTS_ALL._X._Z.N</SeriesKey>
+			<Volume>4.055</Volume>
+			<Value>10.2325</Value>
+		</PCTSeriesKey>
+		<PCTSeriesKey>
+			<SeriesKey COUNT_AREA="IT">PCT.Q.GR.??.1.2000.R.CTS_ALL._X._Z.N</SeriesKey>
+			<Volume>2.4445</Volume>
+			<Value>10.45</Value>
+		</PCTSeriesKey>		
+		<PCTSeriesKey>
+			<SeriesKey COUNT_AREA="FR">PCT.Q.GR.??.1.2000.NR.CTS_ALL._X._Z.N</SeriesKey>
+			<Volume>1.12</Volume>
+			<Value>1.12345678</Value>
+		</PCTSeriesKey>		
+		<PCTSeriesKey>
+			<SeriesKey COUNT_AREA="BG">PCT.Q.GR.??.1.2000.NR.CTS_ALL._X._Z.N</SeriesKey>
+			<Volume>1.2</Volume>
+			<Value>5</Value>
+		</PCTSeriesKey>
+		<PCTSeriesKey>
+			<SeriesKey COUNT_AREA="IT">PCT.Q.GR.??.1.2000.NR.CTS_ALL._X._Z.N</SeriesKey>
+			<Volume>1.5555</Volume>
+			<Value>2.00612345</Value>
+		</PCTSeriesKey>
+
+		<PDDSeriesKey>
+			<SeriesKey COUNT_AREA="FR">PDD.Q.GR.??.2._T.DDS_ALL._T._Z.N</SeriesKey>
+			<Volume>10</Volume>
+			<Value>26.5</Value>
+		</PDDSeriesKey>
+		<PDDSeriesKey>
+			<SeriesKey COUNT_AREA="BG">PDD.Q.GR.??.2._T.DDS_ALL._T._Z.N</SeriesKey>
+			<Volume>7</Volume>
+			<Value>15.654</Value>
+		</PDDSeriesKey>						
+		<PDDSeriesKey>
+			<SeriesKey COUNT_AREA="IT">PDD.Q.GR.??.2._T.DDS_ALL._T._Z.N</SeriesKey>
+			<Volume>8</Volume>
+			<Value>16.854</Value>
+		</PDDSeriesKey>
+		<PDDSeriesKey>
+			<SeriesKey COUNT_AREA="AM">PDD.Q.GR.??.2._T.DDS_ALL._T._Z.N</SeriesKey>
+			<Volume>9.565</Volume>
+			<Value>18.1230123</Value>
+		</PDDSeriesKey>
+		<PDDSeriesKey>
+			<SeriesKey COUNT_AREA="BJ">PDD.Q.GR.??.2._T.DDS_ALL._T._Z.N</SeriesKey>
+			<Volume>6.356</Volume>
+			<Value>28.27</Value>
+		</PDDSeriesKey>
+		<PDDSeriesKey>
+			<SeriesKey COUNT_AREA="BB">PDD.Q.GR.??.2._T.DDS_ALL._T._Z.N</SeriesKey>
+			<Volume>3.789</Volume>
+			<Value>15.12345</Value>
+		</PDDSeriesKey>			
+		<PCPSeriesKey>
+			<SeriesKey TRMNL_LCTN="PT">PCP.Q.GR._Z.??.CP0.1._T._T.PCS_ALL._Z._X._Z.N</SeriesKey>
+			<Volume>10.25</Volume>
+			<Value>19.56789</Value>
+		</PCPSeriesKey>
+		<PCPSeriesKey>
+			<SeriesKey TRMNL_LCTN="BT">PCP.Q.GR._Z.??.CP0.1._T._T.PCS_ALL._Z._X._Z.N</SeriesKey>
+			<Volume>12</Volume>
+			<Value>22.2222</Value>
+		</PCPSeriesKey>
+		<PCPSeriesKey>
+			<SeriesKey TRMNL_LCTN="CV">PCP.Q.GR._Z.??.CP0.1._T._T.PCS_ALL._Z._X._Z.N</SeriesKey>
+			<Volume>19.85</Volume>
+			<Value>45.54321</Value>
+		</PCPSeriesKey>		
+
+		<PCPSeriesKey>
+			<SeriesKey TRMNL_LCTN="PT">PCP.Q.GR._Z.??.CP0.1.2000._T.PCS_ALL._Z._X._Z.N</SeriesKey>
+			<Volume>3</Volume>
+			<Value>14.7891</Value>
+		</PCPSeriesKey>
+		<PCPSeriesKey>
+			<SeriesKey TRMNL_LCTN="BT">PCP.Q.GR._Z.??.CP0.1.2000._T.PCS_ALL._Z._X._Z.N</SeriesKey>
+			<Volume>5.5</Volume>
+			<Value>17</Value>
+		</PCPSeriesKey>
+		<PCPSeriesKey>
+			<SeriesKey TRMNL_LCTN="CV">PCP.Q.GR._Z.??.CP0.1.2000._T.PCS_ALL._Z._X._Z.N</SeriesKey>
+			<Volume>7.2</Volume>
+			<Value>20.48</Value>
+		</PCPSeriesKey>
+		<PCPSeriesKey>
+			<SeriesKey TRMNL_LCTN="PT">PCP.Q.GR._Z.??.CP0.1.2000.NR.PCS_ALL._Z._X._Z.N</SeriesKey>
+			<Volume>1.123</Volume>
+			<Value>11.0891</Value>
+		</PCPSeriesKey>
+		<PCPSeriesKey>
+			<SeriesKey TRMNL_LCTN="BT">PCP.Q.GR._Z.??.CP0.1.2000.NR.PCS_ALL._Z._X._Z.N</SeriesKey>
+			<Volume>3.5</Volume>
+			<Value>14.5</Value>
+		</PCPSeriesKey>
+		<PCPSeriesKey>
+			<SeriesKey TRMNL_LCTN="CV">PCP.Q.GR._Z.??.CP0.1.2000.NR.PCS_ALL._Z._X._Z.N</SeriesKey>
+			<Volume>5.3567</Volume>
+			<Value>18.48</Value>
+		</PCPSeriesKey>		
+
+		<PMCSeriesKey>
+			<SeriesKey TRMNL_LCTN="PT" MRCHNT_CTGRY_CD="0744">PMC.Q.GR._Z.??.NR.YYYY.N</SeriesKey>
+			<Volume>2</Volume>
+			<Value>10.567</Value>
+		</PMCSeriesKey>
+		<PMCSeriesKey>
+			<SeriesKey TRMNL_LCTN="BT" MRCHNT_CTGRY_CD="0742">PMC.Q.GR._Z.??.NR.YYYY.N</SeriesKey>
+			<Volume>3.512</Volume>
+			<Value>17.963852</Value>
+		</PMCSeriesKey>
+		<PMCSeriesKey>
+			<SeriesKey TRMNL_LCTN="CV" MRCHNT_CTGRY_CD="0780">PMC.Q.GR._Z.??.NR.YYYY.N</SeriesKey>
+			<Volume>4.44</Volume>
+			<Value>25.252525</Value>
+		</PMCSeriesKey>		
+
+		<PCPSeriesKey>
+			<SeriesKey TRMNL_LCTN="PT">PCP.Q.GR._Z.??.CP0.1.2000.R.PCS_ALL._Z._X._Z.N</SeriesKey>
+			<Volume>1.877</Volume>
+			<Value>3.7</Value>
+		</PCPSeriesKey>
+		<PCPSeriesKey>
+			<SeriesKey TRMNL_LCTN="BT">PCP.Q.GR._Z.??.CP0.1.2000.R.PCS_ALL._Z._X._Z.N</SeriesKey>
+			<Volume>2</Volume>
+			<Value>2.5</Value>
+		</PCPSeriesKey>		
+		<PCPSeriesKey>
+			<SeriesKey TRMNL_LCTN="CV">PCP.Q.GR._Z.??.CP0.1.2000.R.PCS_ALL._Z._X._Z.N</SeriesKey>
+			<Volume>1.8433</Volume>
+			<Value>2</Value>
+		</PCPSeriesKey>				
+
+		<PMCSeriesKey>
+			<SeriesKey TRMNL_LCTN="PT" MRCHNT_CTGRY_CD="0743">PMC.Q.GR._Z.??.R.YYYY.N</SeriesKey>
+			<Volume>1</Volume>
+			<Value>11</Value>
+		</PMCSeriesKey>				
+		<PMCSeriesKey>
+			<SeriesKey TRMNL_LCTN="BT" MRCHNT_CTGRY_CD="0763">PMC.Q.GR._Z.??.R.YYYY.N</SeriesKey>
+			<Volume>2</Volume>
+			<Value>2.2222</Value>
+		</PMCSeriesKey>
+		<PMCSeriesKey>
+			<SeriesKey TRMNL_LCTN="CV" MRCHNT_CTGRY_CD="1353">PMC.Q.GR._Z.??.R.YYYY.N</SeriesKey>
+			<Volume>3.3</Volume>
+			<Value>6.567</Value>
+		</PMCSeriesKey>	
+
+		<PEMSeriesKey>
+			<SeriesKey COUNT_AREA="PT">PEM.Q.GR.??.EMP0.1._T._T._X._Z.N</SeriesKey>
+			<Volume>1</Volume>
+			<Value>1</Value>
+		</PEMSeriesKey>
+		<PEMSeriesKey>
+			<SeriesKey COUNT_AREA="BT">PEM.Q.GR.??.EMP0.1._T._T._X._Z.N</SeriesKey>
+			<Volume>2</Volume>
+			<Value>2</Value>
+		</PEMSeriesKey>
+		<PEMSeriesKey>
+			<SeriesKey COUNT_AREA="CV">PEM.Q.GR.??.EMP0.1._T._T._X._Z.N</SeriesKey>
+			<Volume>3</Volume>
+			<Value>3</Value>
+		</PEMSeriesKey>
+
+		<PAYSeriesKey>
+			<SeriesKey COUNT_AREA="AD">PAY.Q.GR.??.CHQ.2._Z.N</SeriesKey>
+			<Volume>14</Volume>
+			<Value>14</Value>
+		</PAYSeriesKey>	
+		<PAYSeriesKey>
+			<SeriesKey COUNT_AREA="AL">PAY.Q.GR.??.CHQ.2._Z.N</SeriesKey>
+			<Volume>11</Volume>
+			<Value>11</Value>
+		</PAYSeriesKey>
+		<PAYSeriesKey>
+			<SeriesKey COUNT_AREA="AS">PAY.Q.GR.??.CHQ.2._Z.N</SeriesKey>
+			<Volume>13</Volume>
+			<Value>13</Value>
+		</PAYSeriesKey>		
+		<PAYSeriesKey>
+			<SeriesKey COUNT_AREA="BT">PAY.Q.GR.??.CHQ.2._Z.N</SeriesKey>
+			<Volume>12</Volume>
+			<Value>12</Value>
+		</PAYSeriesKey>
+		<PAYSeriesKey>
+			<SeriesKey COUNT_AREA="CV">PAY.Q.GR.??.CHQ.2._Z.N</SeriesKey>
+			<Volume>19</Volume>
+			<Value>19</Value>
+		</PAYSeriesKey>
+		<PAYSeriesKey>
+			<SeriesKey COUNT_AREA="PT">PAY.Q.GR.??.CHQ.2._Z.N</SeriesKey>
+			<Volume>20</Volume>
+			<Value>20</Value>
+		</PAYSeriesKey>		
+	</Table9>
+</Report>
